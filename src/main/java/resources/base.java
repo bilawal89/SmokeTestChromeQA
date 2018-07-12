@@ -31,7 +31,7 @@ import pageObjects.LoginPage;
 	public WebDriver initializeDriver() throws IOException
 	{
 		Properties prop = new Properties();
-		FileInputStream fis = new FileInputStream("C:\\Users\\bilaw\\.jenkins\\workspace\\SmokeTestChromeUAT\\src\\main\\java\\resources\\data.properties");
+		FileInputStream fis = new FileInputStream("C:\\Users\\bilaw\\.jenkins\\workspace\\SmokeTestChromeQA\\src\\main\\java\\resources\\data.properties");
 		prop.load(fis);
 		String browserName = prop.getProperty("browser");
 		url = prop.getProperty("url");
