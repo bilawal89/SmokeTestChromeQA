@@ -1,0 +1,68 @@
+09:49:05.274 [main] INFO  resources.base - User Have Successfully Login To The Home Page
+09:49:18.542 [main] INFO  resources.base - User Have Successfully reached the favorites Page
+09:50:01.672 [main] INFO  resources.base - user is searching printer using the search textbox
+09:50:01.709 [main] INFO  resources.base - User Have Successfully reached the printer search listing page
+09:50:01.782 [main] INFO  resources.base - Search result data is Appearing on the Search Result Page
+09:50:22.054 [main] INFO  resources.base - User Have Successfully reached the PDP Page
+09:50:56.211 [main] INFO  resources.base - Recently Viewed Page is Opened
+09:51:00.339 [main] INFO  resources.base - User has clicked the Logo from the footer of the page
+09:51:00.353 [main] INFO  resources.base - User Have reached the Home Page clicking on the footer Logo
+09:51:05.746 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+09:51:05.751 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+09:51:11.531 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+09:51:17.485 [main] INFO  resources.base - User has clicked the Logo from the header of the page
+09:51:17.492 [main] INFO  resources.base - User Have reached the Home Page clicking on the Header Logo
+09:51:24.871 [main] INFO  resources.base - User has clicked on the Standard Catalog Navigation button from header
+09:51:24.880 [main] INFO  resources.base - User Have reached the Standard Catalog Page
+09:51:42.142 [main] INFO  resources.base - User has clicked on the 1st Standard Product appearing and reached the PDP Page
+09:52:12.657 [main] INFO  resources.base - User has clicked on the All Product Nevigation button from the header
+09:52:12.666 [main] INFO  resources.base - User Have reached the All Product Page
+09:52:26.861 [main] INFO  resources.base - User has clicked on Audio Cables Category From All Products Page
+09:52:26.869 [main] INFO  resources.base - User Have reached the Audio Cables Category Page
+09:52:46.778 [main] INFO  resources.base - User has clicked on Resouces link from the header
+09:52:46.817 [main] INFO  resources.base - User Have reached the Resources Page
+09:53:04.649 [main] INFO  resources.base - User has clicked on Special Offer Link from the header
+09:53:04.660 [main] INFO  resources.base - User Have reached the Special Offer Page
+09:53:19.282 [main] INFO  resources.base - User has clicked on Cart Icon from the header
+09:53:19.293 [main] INFO  resources.base - User Have reached the Shopping Cart Page
+09:55:07.061 [main] INFO  resources.base - element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 7cf364dd0d011302c8d6a5ad146bab44
+09:55:12.081 [main] INFO  resources.base - User Have reached the order confirmation page after placing the order
+09:57:06.935 [main] INFO  resources.base - User has clicked the Logo from the header of the page
+09:57:17.017 [main] INFO  resources.base - User Have reached the Home Page clicking on the Header Logo
+09:57:21.957 [main] INFO  resources.base - User has clicked the Logo from the footer of the page
+09:57:21.967 [main] INFO  resources.base - User Have reached the Home Page clicking on the footer Logo
+09:57:32.842 [main] INFO  resources.base - User has clicked on the Standard Catalog Link from the footer of the page
+09:57:42.867 [main] INFO  resources.base - User Have reached the Standard Product page after clicking on the Standard Catalog Link from the footer of the page
+09:57:51.566 [main] INFO  resources.base - User has clicked on the All product Link from the footer of the page
+09:58:01.598 [main] INFO  resources.base - User Have reached the All Product page after clicking on the Standard Catalog Link from the footer of the page
+09:58:13.373 [main] INFO  resources.base - User has clicked on the resources  Link from the footer of the page
+09:58:28.409 [main] INFO  resources.base - User Have reached the resources page after clicking on the resources Link from the footer of the page
+09:58:44.976 [main] INFO  resources.base - User has clicked on the Special offer Link from the footer of the page
+09:58:55.055 [main] INFO  resources.base - User Have reached the Special offer after clicking on the Special offer Link from the footer of the page
+09:59:17.273 [main] INFO  resources.base - User has clicked on the Special offer Link from the footer of the page
+09:59:27.310 [main] INFO  resources.base - User Have reached the Favorites after clicking on the Favorites Link from the footer of the page
+10:00:17.697 [main] INFO  resources.base - User has clicked on the Track button from the header of the page
+10:00:17.909 [main] INFO  resources.base - User have reached the Track page after clicking on the Track button from the header of the page
+10:01:01.713 [main] INFO  resources.base - User has clicked on the order button from the header of the page
+10:01:11.763 [main] INFO  resources.base - User have reached the Order page after clicking on the Order button from the header of the page
+10:01:48.697 [main] INFO  resources.base - User has clicked on the Purchase Analysis button from the header of the page
+10:01:48.949 [main] INFO  resources.base - User have reached the Purchase Analysis page after clicking on the Purchase Analysis button from the header of the page
+10:01:49.189 [main] INFO  resources.base - User have clicked on email icon on purchase analysis Page
+10:01:49.452 [main] INFO  resources.base - User have entered the email on email field at purchase analysis Page
+10:01:49.707 [main] INFO  resources.base - User have click on Send button at email popup screen at purchase analysis Page
+10:02:07.281 [main] INFO  resources.base - User has clicked on the Calendar button from the header of the page
+10:02:07.291 [main] INFO  resources.base - User have reached the  Calendar page after clicking on the Calendar button from the header of the page
+10:02:45.676 [main] INFO  resources.base - User have reached the expiration report after clicking on the report button from the Calendar page from monthly view tab
+10:03:20.586 [main] INFO  resources.base - User have reached the expiration report after clicking on the report button from the Calendar page from Detail view tab
+10:03:27.088 [main] INFO  resources.base - User has clicked on the Saved Report icon from the header of the page
+10:03:27.116 [main] INFO  resources.base - User have reached the  Saved Report page after clicking on the Saved Report icon from the header of the page
+10:03:31.348 [main] INFO  resources.base - user is searching printer using the search textbox
+10:04:07.297 [main] INFO  resources.base - User Have Successfully reached the Compare page
