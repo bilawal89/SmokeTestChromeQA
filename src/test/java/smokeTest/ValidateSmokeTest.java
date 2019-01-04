@@ -330,6 +330,7 @@ Srp.getProduct4Cart().click();
 	@Test(priority = 6)
 	public void ValidateRecentViewLink() throws InterruptedException {
 		FavouritePage fav = new FavouritePage(driver);
+		Thread.sleep(5000);
 		fav.getRecentlyViewed().click();
 		Thread.sleep(10000);
 		String Title8 = driver.getTitle();
@@ -556,9 +557,10 @@ Srp.getProduct4Cart().click();
 	}
 
 	@Test(priority = 16)
-	public void ValidateCartPage() {
+	public void ValidateCartPage() throws InterruptedException {
 		Header Head = new Header(driver);
 		Head.getCartIcon().click();
+		Thread.sleep(5000);
 		Log.info("User has clicked on Cart Icon from the header");
 		String title5 = driver.getTitle();
 		String expectedTitle = "Cart - MarkITplace";
@@ -600,10 +602,11 @@ Srp.getProduct4Cart().click();
 
 	@Test(priority = 18)
 	public void ValidateCheckoutProcess() throws InterruptedException {
-		WebDriverWait wait = new WebDriverWait(driver, 100);
+		WebDriverWait wait = new WebDriverWait(driver, 50);
 		Random random = new Random();
 		int x = random.nextInt(90000) + 100;
 		CartPage CP = new CartPage(driver);
+		Thread.sleep(5000);
 		CP.getCheckoutBtn().click();
 		// String actitle=driver.getTitle();
 		// String extitle= "Checkout - MarkITplace";
@@ -1517,6 +1520,7 @@ Srp.getProduct4Cart().click();
 			srp.getCompare1().click();
 		srp.getCompare2().click();
 		srp.getCompareBtn().click();
+		Thread.sleep(5000);
 		
 		
 		Exp = "Product Compare - MarkITplace";

@@ -15,7 +15,8 @@ public WebDriver driver;
 	
 	
 	By Newbtn=By.xpath("//a[text()='Use This Address']");
-	By PO = By.xpath("//input[@id='tbPO']");
+	//By PO = By.xpath("//input[@id='tbPO']");
+	By PO = By.xpath("(//input[@type='text'])[1]");
 	By BillingDropdown=By.xpath("//div[@class='predictive-dropdown-arrow']");
 	By Listvalue=By.xpath("//li[@value='[object Object]']");
 	By SaveBtn1=By.xpath("//a[@class='btn btn-primary btn-save']");

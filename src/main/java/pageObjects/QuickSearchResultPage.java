@@ -8,20 +8,44 @@ import org.openqa.selenium.support.ui.Select;
 public class QuickSearchResultPage {
 	
 	public WebDriver driver ;
-	//public Select Se1;
-	
 	
 	public QuickSearchResultPage(WebDriver driver) 
 	{
-		// TODO Auto-generated constructor stub
+		
 		this.driver=driver;
 	}
 	
+	By CreateOrder_Disbl=By.xpath("(//a[@class='btn btn-primary disabled q-d-disabled tt-wrapper'])[1]");
 	
-	By OrdersTab= By.xpath("//*[@id='order-top']/div/div/div[2]/div/span[1]");
-	By QuotesTab= By.xpath("//*[@id='order-top']/div/div/div[2]/div/span[2]");
-	By AssetsTab= By.xpath("//*[@id='order-top']/div/div/div[2]/div/span[3]");
+	By EditQuotedsbl=By.xpath("(//a[@class='btn btn-primary disabled q-d-disabled tt-wrapper'])[1]");
+	By DelQuotedsbl=By.xpath("(//a[@class='btn btn-primary disabled q-d-disabled tt-wrapper'])[2]");
+	By OrdersTab= By.xpath("//div[@class='tab-wrapper clearfix']/div/span[1]");
+	By QuotesTab= By.xpath("//div[@class='tab-wrapper clearfix']/div/span[2]");
+	By AssetsTab= By.xpath("//div[@class='tab-wrapper clearfix']/div/span[3]");
 	By LoadMoreButton=By.xpath("//button[@class='btn load-more-link order-load-more']");
+	By Expand1=By.xpath("(//a[@class='btn-expand-content'])[1]");
+	
+	
+	
+	public WebElement getCreateOrder_Disbl()
+	{
+		return driver.findElement(CreateOrder_Disbl);
+	}
+	
+	public WebElement getExpand1()
+	{
+		return driver.findElement(Expand1);
+	}
+	
+	public WebElement getEditQuotedsbl()
+	{
+		return driver.findElement(EditQuotedsbl);
+	}
+	
+	public WebElement getDelQuotedsbl()
+	{
+		return driver.findElement(DelQuotedsbl);
+	}
 	
 	public WebElement getOrdersTab()
 	{

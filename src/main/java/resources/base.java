@@ -68,6 +68,39 @@ import pageObjects.LoginPage;
 		
 	}
 	
+	public WebDriver initializedriver1() throws IOException
+	{
+
+		Properties prop = new Properties();
+		FileInputStream fis = new FileInputStream("C:\\Users\\bilaw\\.jenkins\\workspace\\SmokeTestChromeQA\\src\\main\\java\\resources\\data1.properties");
+		prop.load(fis);
+		String browserName = prop.getProperty("browser");
+		url = prop.getProperty("url");
+		if(browserName.equals("chrome"))
+		{
+			System.setProperty("webdriver.chrome.driver", "C:\\driver\\chromedriver.exe");
+			 driver = new ChromeDriver();
+		}
+		else if(browserName.equals("firefox"))
+		{
+			System.setProperty("webdriver.firefox.driver", "C:\\driver\\geckodriver.exe");
+			driver = new FirefoxDriver();
+		}
+		else if(browserName.equals("ie"))
+		{
+			DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
+			capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
+			System.setProperty("webdriver.ie.driver", "C:\\driver\\IEDriverServer.exe");
+			driver = new InternetExplorerDriver();
+		}
+		driver.get(url);
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		return driver;
+		
+	}
+	
+	
 	
 	public WebDriver initializeDriverWithoutCredentials() throws IOException
 	{
@@ -99,6 +132,8 @@ import pageObjects.LoginPage;
 		return driver;
 		
 	}
+	
+
 	
 	
 	

@@ -17,6 +17,8 @@ public Header(WebDriver driver )
 
 }
 
+
+
 By HeadLogo=By.xpath("//img[@class='logo']");	
 By Searchbox=By.xpath("//input[@id='x_main-search']");
 
@@ -53,6 +55,13 @@ By MyAccountLink=By.xpath("//span[@class='account-title']");
 By ShippingAddressLink=By.linkText("Shipping Addresses");
 By MyProfileLink=By.linkText("My Profile");
 By logoutLink=By.linkText("My Profile");
+
+By QuoteLink=By.xpath("//a[@class='top-link' and text()='Quotes']");
+
+public WebElement getQuoteLink()
+{
+	return driver.findElement(QuoteLink);
+}
 
 
 public WebElement getTrackBtnFF()

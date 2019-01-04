@@ -14,6 +14,8 @@ public class SearchResultPage {
 		// TODO Auto-generated constructor stub
 		this.driver=driver;
 	}
+	
+	By CartBtn = By.xpath("//span[@alt='Shopping Cart']");
 	By Product5Cart= By.xpath("(//a[@data-product-type='PRODUCT'])[3]");
 	By Compare1 = By.xpath("(//div[@class='control__indicator'])[1]");
 	By Compare2 = By.xpath("(//div[@class='control__indicator'])[2]");
@@ -29,13 +31,40 @@ public class SearchResultPage {
 	//By Product2Cart = By.xpath("//*[@id='add_to_cart_9707434']");
 	By Product2Cart = By.xpath("//a[@id='add_to_cart_9707434']");
 	By CloseIcon = By.xpath("//*[@id='cart-dialog']/div[1]/div[1]/div/div/div/button");
+	
+	By CloseIcon1=By.xpath("(//button[@type='button' and @class='mfp-close'])[2]");
 
 	By Product3Cart = By.xpath("//*[@id='add_to_cart_11224916']");
 	By AddToCartCLose = By.xpath("//button[@class='mfp-close']");
 	By favClose= By.xpath("//div[@class='modal-footer']//button[@class='btn btn-default' and text()='Close'][1]");
 	By prod1name=By.xpath("//h2[@id='product-name-10886231']");
 	
+	By Add2Cart=By.xpath("(//a[@class='add_to_cart btn btn-primary'])[1]");
+	
+	By CreateQuoteBtn=By.xpath("//a[@class='btn secondary left' and text() ='Create Quote']");
+	
+	
+	public WebElement getCartBtn()
+	{
+		return driver.findElement(CartBtn);
+	}
+	
+	public WebElement getCloseIcon1()
+	{
+		return driver.findElement(CloseIcon1);
+	}
+	
+	
+	public WebElement getCreateQuoteBtn()
+	{
+		return driver.findElement(CreateQuoteBtn);
+	}
+	
 
+	public WebElement getAdd2Cart()
+	{
+		return driver.findElement(Add2Cart);
+	}
 	
 	public WebElement getCompare1()
 	{

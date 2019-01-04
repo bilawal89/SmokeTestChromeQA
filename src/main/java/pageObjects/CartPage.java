@@ -18,7 +18,8 @@ public class CartPage {
 	}
 
 	By CheckoutBtnFF=By.xpath("//a[@class='btn btn-primary proceed-checkout ']");
-	By CheckoutBtn=By.linkText("Proceed to Checkout");
+	//By CheckoutBtnFF=By.xpath("//a[text()='Create Order']");
+	By CheckoutBtn=By.xpath("//a[text()='Create Order']");
 	By CartSubtotal=By.xpath("//h2[@class='sub-total sub-total-heading']");
 	By ItemsCount=By.xpath("//span[@class='items-total']");
 	By Subtotal=By.xpath("//span[@class='right sub-total']");
@@ -31,7 +32,14 @@ public class CartPage {
 	
 	By Remove1=By.xpath("(//a[@class='btn text-color cart-remove'])[1]");
 	By Remove1Count=By.xpath("//a[@id='remove-item-12577638']");
+	By Quote_Btn=By.xpath("//a[text()='Create Quote']");
 
+	
+	public WebElement getQuote_Btn()
+	{
+		return driver.findElement(Quote_Btn);
+	}
+	
 	
 	public WebElement getCheckoutBtnFF()
 	{
