@@ -1503,7 +1503,9 @@ Srp.getProduct4Cart().click();
 	@Test(priority=30)
 	public void ValidateCompaePage() throws InterruptedException
 	{
+		
 		WebDriverWait wt = new WebDriverWait(driver,20);
+		
 		//wt.until(ExpectedConditions.elementToBeClickable(locator))
 		SearchResultPage srp = new SearchResultPage(driver);
 		HomePage hp = new HomePage(driver);
@@ -1520,6 +1522,9 @@ Srp.getProduct4Cart().click();
 			srp.getCompare1().click();
 		srp.getCompare2().click();
 		srp.getCompareBtn().click();
+		
+		wt.until(ExpectedConditions.invisibilityOf(hp.getsearchbox()));
+		
 		Thread.sleep(5000);
 		
 		
