@@ -13,7 +13,7 @@ public WebDriver driver;
 		this.driver=driver;
 	}
 	
-	
+	By Attention = By.xpath("(//div[@class='field-container']/input)[1]");
 	By Newbtn=By.xpath("//a[text()='Use This Address']");
 	//By PO = By.xpath("//input[@id='tbPO']");
 	By PO = By.xpath("(//input[@type='text'])[1]");
@@ -26,6 +26,12 @@ public WebDriver driver;
 	By EmailConfirm=By.xpath("//input[@id='tbEmailConfirmation']");
 	By JavaClose=By.xpath("//button[@class='btn btn-default']");
 	By Reference=By.xpath("//input[@type='text' and @id='tbReference']");
+	
+	
+	public WebElement getAttention()
+	{
+		return driver.findElement(Attention);
+	}
 	
 	public WebElement getReference()
 	{

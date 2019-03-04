@@ -607,8 +607,7 @@ Srp.getProduct4Cart().click();
 		int x = random.nextInt(90000) + 100;
 		CartPage CP = new CartPage(driver);
 		CP.getCheckoutBtn().click();
-		// String actitle=driver.getTitle();
-		// String extitle= "Checkout - MarkITplace";
+	
 		CheckoutPage CO = new CheckoutPage(driver);
 		Thread.sleep(10000);
 		wait.until(ExpectedConditions.elementToBeClickable(CO.getPO()));
@@ -643,6 +642,8 @@ Srp.getProduct4Cart().click();
 
 		CO.getSaveBtn1().click();
 		Thread.sleep(9000);
+		wait.until(ExpectedConditions.elementToBeClickable(CO.getAttention()));
+		CO.getAttention().sendKeys("abcTest");
 		wait.until(ExpectedConditions.elementToBeClickable(CO.getEmailConfirm()));
 		CO.getEmailConfirm().clear();
 		CO.getEmailConfirm().sendKeys("bilawal.alam@arpatech.com");
@@ -664,7 +665,7 @@ Srp.getProduct4Cart().click();
 			Thread.sleep(5000);
 			Assert.assertEquals(title5, "Order Confirmation - MarkITplace");
 
-			Log.info("User Have reached the order confirmation page after placing the order");
+			Log.info("User have reached the order confirmation page after placing the order");
 		} catch (Throwable e) {
 
 			Log.error("User have not reached the order confirmation page");
@@ -1521,9 +1522,9 @@ Srp.getProduct4Cart().click();
 		srp.getCompare2().click();
 		srp.getCompareBtn().click();
 		
-		wt.until(ExpectedConditions.invisibilityOf(hp.getsearchbox()));
+		//wt.until(ExpectedConditions.invisibilityOf(hp.getsearchbox()));
 		
-		Thread.sleep(5000);
+		Thread.sleep(15000);
 		
 		
 		Exp = "Product Compare - MarkITplace";
