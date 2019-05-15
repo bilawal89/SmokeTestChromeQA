@@ -1,35 +1,23 @@
 package smokeTest;
 
-import static org.testng.Assert.assertEquals;
-
 import java.io.IOException;
 import java.util.Iterator;
 import java.util.Random;
 import java.util.Set;
-import java.util.concurrent.TimeUnit;
-
-import javax.swing.text.Element;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-
-
 import pageObjects.AllProducts;
-import pageObjects.Calendar;
 import pageObjects.CartPage;
 import pageObjects.CheckoutPage;
 import pageObjects.FavouritePage;
@@ -48,9 +36,6 @@ public class ValidateSmokeTest extends base {
 	public static Logger Log = LogManager.getLogger(base.class.getName());
 	public HomePage hp;
 	public SearchResultPage Srp;
-	// String parentWindowHandler;
-	// String subWindowHandler;
-
 	public WebDriver driver;
 
 	@Test(priority = 0)
@@ -131,7 +116,7 @@ public class ValidateSmokeTest extends base {
 
 	@Test(priority = 2)
 
-	public void ValidateSearching() {
+	public void ValidateSearching() throws InterruptedException {
 		HomePage hp = new HomePage(driver);
 		hp.getsearchbox().sendKeys("printers" + Keys.ENTER);
 		Log.info("user is searching printer using the search textbox");
@@ -144,6 +129,8 @@ public class ValidateSmokeTest extends base {
 			Log.error("Search Result not displaying");
 			Log.error(e.getMessage());
 		}
+		
+		Thread.sleep(15000);
 		Assert.assertEquals(title3, "Printers - MarkITplace");
 		SearchResultPage Srp = new SearchResultPage(driver);
 		try {
@@ -539,9 +526,10 @@ Srp.getProduct4Cart().click();
 	}
 
 	@Test(priority = 15)
-	public void ValidateSpecialOffer() {
+	public void ValidateSpecialOffer() throws InterruptedException {
 		Header Head = new Header(driver);
 		Head.getSpecialOffers().click();
+		Thread.sleep(10000);
 		Log.info("User has clicked on Special Offer Link from the header");
 		String title5 = driver.getTitle();
 		String expectedTitle = "Special Offers - MarkITplace";
@@ -554,6 +542,7 @@ Srp.getProduct4Cart().click();
 			Log.error(e.getMessage());
 		}
 		Assert.assertEquals(title5, expectedTitle);
+		
 	}
 
 	@Test(priority = 16)
@@ -729,6 +718,7 @@ Srp.getProduct4Cart().click();
 			Log.error(e.getMessage());
 		}
 		Assert.assertEquals(title5, "Shop - MarkITplace");
+		
 	}
 
 	@Test(priority = 21)
@@ -959,7 +949,7 @@ Srp.getProduct4Cart().click();
 		Assert.assertEquals(title5, exp5);
 	}
 
-	@Test(priority = 27)
+	@Test(priority = 27,enabled = false)
 
 	public void ValidateCalendarLinks() throws InterruptedException {
 		// Calendar Cal = new Calendar(driver);
@@ -969,7 +959,7 @@ Srp.getProduct4Cart().click();
 
 		Sel.selectByVisibleText("2017");
 		driver.findElement(By.xpath("(//a[@class='btn-expand-content'])[1]")).click();
-		driver.findElement(By.linkText("(6) PLANAR SYSTEMS")).click();
+		driver.findElement(By.linkText("(1) C2G")).click();
 		String exp1 = "Expiration Report - MarkITplace";
 		String Act1 = driver.getTitle();
 
@@ -988,9 +978,10 @@ Srp.getProduct4Cart().click();
 		// Assert.assertEquals(Act1, exp1);
 		// Header head = new Header(driver);
 		driver.navigate().back();
-		driver.findElement(By.xpath("//a[@class='tab-link']")).click();
 		Thread.sleep(5000);
-		driver.findElement(By.xpath("(//span[contains(text(),'SAMSUNG')])[1]")).click();
+		driver.findElement(By.xpath("//div[@class='tab-wrapper']/a[@class='tab-link']")).click();
+		Thread.sleep(5000);
+		driver.findElement(By.xpath("(//span[contains(text(),'(1) DATALOGIC')])[1]")).click();
 		String Act2 = driver.getTitle();
 		try {
 			Assert.assertEquals(Act2, exp1);
@@ -1500,7 +1491,7 @@ Srp.getProduct4Cart().click();
 	}
 	
 	@Test(priority=30)
-	public void ValidateCompaePage() throws InterruptedException
+	public void ValidateComparePage() throws InterruptedException
 	{
 		
 		WebDriverWait wt = new WebDriverWait(driver,20);
@@ -1514,15 +1505,12 @@ Srp.getProduct4Cart().click();
 		hp.getsearchbox().sendKeys("printers" + Keys.ENTER);
 		Log.info("user is searching printer using the search textbox");
 		Thread.sleep(10000);
-		//driver.findElement(By.xpath("(//div[@class='control__indicator'])[1]")).click();
-		//driver.findElement(By.xpath("(//div[@class='control__indicator'])[2]")).click();
-		//driver.findElement(By.linkText("Compare")).click();
-		//
-			srp.getCompare1().click();
+		
+		srp.getCompare1().click();
 		srp.getCompare2().click();
 		srp.getCompareBtn().click();
 		
-		//wt.until(ExpectedConditions.invisibilityOf(hp.getsearchbox()));
+		
 		
 		Thread.sleep(15000);
 		
@@ -1540,10 +1528,6 @@ Srp.getProduct4Cart().click();
 		    }
 		}
 		Assert.assertEquals(act, Exp);
-		
-		
-		
-		
 	}
 
 	@AfterTest

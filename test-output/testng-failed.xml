@@ -5,9 +5,33 @@
     <classes>
       <class name="smokeTest.ValidateSmokeTest">
         <methods>
-          <include name="ValidateCheckoutProcess"/>
-          <include name="ValidateCompaePage"/>
+          <include name="ValidateCartPage"/>
           <include name="closebrowser"/>
+          <include name="ValidatePDPandAddToCart"/>
+          <include name="ValidatePurchaseAnalysisPage"/>
+          <include name="ValidateStandardsCatalogDetail"/>
+          <include name="ValidateCheckoutHeaderLogo"/>
+          <include name="ValidatePAEmail"/>
+          <include name="ValidateTrackpage"/>
+          <include name="ValidateCalendarPage"/>
+          <include name="ValidateCheckoutProcess"/>
+          <include name="ValidateComparePage"/>
+          <include name="ValidateMyProfNavigation"/>
+          <include name="ValidateSavedReports"/>
+          <include name="ValidateRecentViewLink"/>
+          <include name="ValidateHeaderLogo"/>
+          <include name="ValidateResources"/>
+          <include name="ValidateSearching"/>
+          <include name="ValidateordersPage"/>
+          <include name="ValidateFooterLinks"/>
+          <include name="ValidateSpecialOffer"/>
+          <include name="ValidateAudioCablesCategory"/>
+          <include name="ValidateFavoriteIcon"/>
+          <include name="ValidateStandardsCatalog"/>
+          <include name="ValidateAllProduct"/>
+          <include name="ValidateCheckoutFooterLogo"/>
+          <include name="ValidateLogin"/>
+          <include name="ValidateFooterLogo"/>
         </methods>
       </class> <!-- smokeTest.ValidateSmokeTest -->
     </classes>

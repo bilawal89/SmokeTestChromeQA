@@ -132,16 +132,7 @@ import pageObjects.LoginPage;
 		return driver;
 		
 	}
-	
-
-	
-	
-	
-	
-	
-	
-	
-	
+		
 	
 	public void getScreenshot(String result) throws IOException
 	{

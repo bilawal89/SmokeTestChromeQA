@@ -21,7 +21,7 @@ public class SearchResultPage {
 	By Compare2 = By.xpath("(//div[@class='control__indicator'])[2]");
 	By CompareBtn=By.linkText("Compare");
 	
-	By Products = By.xpath("//div[@class='product-list-grid clearfix print-product-list grid']");
+	By Products = By.xpath("//div[@class='product-list-grid clearfix print-product-list pro-list grid']");
 	By Product4Cart=By.xpath("//a[@id='add_to_cart_11273675']");
 	By fav1Product = By.xpath("//*[@id='fav_btn_10886231']");
 	By Favdialog = By.xpath("//*[@id='products-content']/div/div[2]/div/div/div[1]/h4");

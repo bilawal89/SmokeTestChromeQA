@@ -1,0 +1,421 @@
+16:54:53.787 [main] INFO  resources.base - User have entered the email on email field at purchase analysis Page
+16:54:54.128 [main] INFO  resources.base - User have click on Send button at email popup screen at purchase analysis Page
+16:55:03.655 [main] INFO  resources.base - User has clicked on the Calendar button from the header of the page
+16:55:03.671 [main] INFO  resources.base - User have reached the  Calendar page after clicking on the Calendar button from the header of the page
+16:55:20.775 [main] INFO  resources.base - User have reached the expiration report after clicking on the report button from the Calendar page from monthly view tab
+16:55:40.236 [main] INFO  resources.base - User have reached the expiration report after clicking on the report button from the Calendar page from Detail view tab
+16:55:47.417 [main] INFO  resources.base - User has clicked on the Saved Report icon from the header of the page
+16:55:47.439 [main] INFO  resources.base - User have reached the  Saved Report page after clicking on the Saved Report icon from the header of the page
+16:55:51.020 [main] INFO  resources.base - user is searching printer using the search textbox
+16:56:32.658 [main] INFO  resources.base - User Have Successfully reached the Compare page
+17:00:00.458 [main] INFO  resources.base - User Have Successfully Login To The Home Page
+17:00:04.205 [main] INFO  resources.base - User Have Successfully reached the favorites Page
+17:00:20.063 [main] INFO  resources.base - user is searching printer using the search textbox
+17:00:20.091 [main] INFO  resources.base - User Have Successfully reached the printer search listing page
+17:00:30.203 [main] ERROR resources.base - Search Result data is not appearing on the page
+17:00:30.203 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='product-list-grid clearfix print-product-list grid']"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: ccef93e7d7c0ca4468d65ef6c58e7fb4
+*** Element info: {Using=xpath, value=//div[@class='product-list-grid clearfix print-product-list grid']}
+17:00:47.219 [main] ERROR resources.base - User Is Not Able To reached the PDP Page
+17:00:47.219 [main] ERROR resources.base - expected [HP Officejet Pro 8710 All-in-One - Multifunction printer - MarkITplace] but found [404 - Page not found - MarkITplace]
+17:01:06.266 [main] INFO  resources.base - User has clicked the Logo from the footer of the page
+17:01:06.298 [main] INFO  resources.base - User Have reached the Home Page clicking on the footer Logo
+17:01:09.079 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+17:01:09.108 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+17:01:11.975 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+17:01:13.275 [main] INFO  resources.base - User has clicked the Logo from the header of the page
+17:01:13.295 [main] INFO  resources.base - User Have reached the Home Page clicking on the Header Logo
+17:01:19.002 [main] INFO  resources.base - User has clicked on the Standard Catalog Navigation button from header
+17:01:19.015 [main] INFO  resources.base - User Have reached the Standard Catalog Page
+17:01:36.041 [main] INFO  resources.base - User has clicked on the 1st Standard Product appearing and reached the PDP Page
+17:01:41.192 [main] INFO  resources.base - User has clicked on the All Product Nevigation button from the header
+17:01:41.204 [main] INFO  resources.base - User Have reached the All Product Page
+17:01:45.541 [main] INFO  resources.base - User has clicked on Audio Cables Category From All Products Page
+17:01:45.554 [main] INFO  resources.base - User Have reached the Audio Cables Category Page
+17:02:01.401 [main] INFO  resources.base - User has clicked on Resouces link from the header
+17:02:01.411 [main] INFO  resources.base - User Have reached the Resources Page
+17:02:01.655 [main] INFO  resources.base - User has clicked on Special Offer Link from the header
+17:02:04.142 [main] INFO  resources.base - User Have reached the Special Offer Page
+17:02:17.613 [main] INFO  resources.base - User has clicked the Logo from the header of the page
+17:02:27.672 [main] INFO  resources.base - User Have reached the Home Page clicking on the Header Logo
+17:02:31.145 [main] INFO  resources.base - User has clicked the Logo from the footer of the page
+17:02:31.173 [main] INFO  resources.base - User Have reached the Home Page clicking on the footer Logo
+17:02:35.943 [main] INFO  resources.base - User has clicked on the Standard Catalog Link from the footer of the page
+17:02:46.011 [main] INFO  resources.base - User Have reached the Standard Product page after clicking on the Standard Catalog Link from the footer of the page
+17:02:47.362 [main] INFO  resources.base - User has clicked on the All product Link from the footer of the page
+17:02:57.396 [main] INFO  resources.base - User Have reached the All Product page after clicking on the Standard Catalog Link from the footer of the page
+17:03:02.762 [main] INFO  resources.base - User has clicked on the resources  Link from the footer of the page
+17:03:17.800 [main] INFO  resources.base - User Have reached the resources page after clicking on the resources Link from the footer of the page
+17:03:24.157 [main] INFO  resources.base - User has clicked on the Special offer Link from the footer of the page
+17:03:34.218 [main] INFO  resources.base - User Have reached the Special offer after clicking on the Special offer Link from the footer of the page
+17:03:36.323 [main] INFO  resources.base - User has clicked on the Special offer Link from the footer of the page
+17:03:46.394 [main] INFO  resources.base - User Have reached the Favorites after clicking on the Favorites Link from the footer of the page
+17:03:50.905 [main] INFO  resources.base - User has clicked on the Track button from the header of the page
+17:03:51.120 [main] INFO  resources.base - User have reached the Track page after clicking on the Track button from the header of the page
+17:03:54.417 [main] INFO  resources.base - User has clicked on the order button from the header of the page
+17:04:04.491 [main] INFO  resources.base - User have reached the Order page after clicking on the Order button from the header of the page
+17:04:49.593 [main] INFO  resources.base - User has clicked on the Purchase Analysis button from the header of the page
+17:04:49.907 [main] INFO  resources.base - User have reached the Purchase Analysis page after clicking on the Purchase Analysis button from the header of the page
+17:04:50.264 [main] INFO  resources.base - User have clicked on email icon on purchase analysis Page
+17:04:50.564 [main] INFO  resources.base - User have entered the email on email field at purchase analysis Page
+17:04:50.891 [main] INFO  resources.base - User have click on Send button at email popup screen at purchase analysis Page
+17:04:57.199 [main] INFO  resources.base - User has clicked on the Calendar button from the header of the page
+17:04:57.209 [main] ERROR resources.base - User have not reached the Calendar page after clicking on the Calendar button from the header of the page
+17:04:57.209 [main] ERROR resources.base - expected [Calendar Monthly View - MarkITplace] but found [Oops! something went wrong. - MarkITplace]
+17:05:27.396 [main] INFO  resources.base - Compare Page not reached
+17:09:45.091 [main] INFO  resources.base - User Have Successfully Login To The Home Page
+17:09:48.052 [main] INFO  resources.base - User Have Successfully reached the favorites Page
+17:10:02.980 [main] INFO  resources.base - user is searching printer using the search textbox
+17:10:03.016 [main] INFO  resources.base - User Have Successfully reached the printer search listing page
+17:10:13.054 [main] ERROR resources.base - Search Result data is not appearing on the page
+17:10:13.054 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='product-list-grid clearfix print-product-list grid']"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: f17ec71496e94cc3bc3eeec452156120
+*** Element info: {Using=xpath, value=//div[@class='product-list-grid clearfix print-product-list grid']}
+17:10:29.856 [main] ERROR resources.base - User Is Not Able To reached the PDP Page
+17:10:29.856 [main] ERROR resources.base - expected [HP Officejet Pro 8710 All-in-One - Multifunction printer - MarkITplace] but found [404 - Page not found - MarkITplace]
+17:10:49.199 [main] INFO  resources.base - User has clicked the Logo from the footer of the page
+17:10:49.207 [main] INFO  resources.base - User Have reached the Home Page clicking on the footer Logo
+17:10:56.957 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+17:10:56.979 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+17:10:59.521 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+17:11:00.671 [main] INFO  resources.base - User has clicked the Logo from the header of the page
+17:11:00.993 [main] INFO  resources.base - User Have reached the Home Page clicking on the Header Logo
+17:11:05.363 [main] INFO  resources.base - User has clicked on the Standard Catalog Navigation button from header
+17:11:05.385 [main] INFO  resources.base - User Have reached the Standard Catalog Page
+17:11:24.499 [main] INFO  resources.base - User has clicked on the 1st Standard Product appearing and reached the PDP Page
+17:11:30.169 [main] INFO  resources.base - User has clicked on the All Product Nevigation button from the header
+17:11:30.175 [main] INFO  resources.base - User Have reached the All Product Page
+17:11:32.802 [main] INFO  resources.base - User has clicked on Audio Cables Category From All Products Page
+17:11:32.815 [main] INFO  resources.base - User Have reached the Audio Cables Category Page
+17:11:52.589 [main] INFO  resources.base - User has clicked on Resouces link from the header
+17:11:52.602 [main] INFO  resources.base - User Have reached the Resources Page
+17:11:52.688 [main] INFO  resources.base - User has clicked on Special Offer Link from the header
+17:11:52.696 [main] ERROR resources.base - User have not reached the Special Offer Page after clicking Special Offer link from the header
+17:11:52.696 [main] ERROR resources.base - expected [Special Offers - MarkITplace] but found [Resources - MarkITplace]
+17:12:00.155 [main] INFO  resources.base - User has clicked on Cart Icon from the header
+17:12:00.214 [main] INFO  resources.base - User Have reached the Shopping Cart Page
+17:12:22.955 [main] INFO  resources.base - User has clicked the Logo from the header of the page
+17:12:33.039 [main] INFO  resources.base - User Have reached the Home Page clicking on the Header Logo
+17:12:35.254 [main] INFO  resources.base - User has clicked the Logo from the footer of the page
+17:12:35.283 [main] INFO  resources.base - User Have reached the Home Page clicking on the footer Logo
+17:12:40.142 [main] INFO  resources.base - User has clicked on the Standard Catalog Link from the footer of the page
+17:12:50.186 [main] INFO  resources.base - User Have reached the Standard Product page after clicking on the Standard Catalog Link from the footer of the page
+17:12:51.631 [main] INFO  resources.base - User has clicked on the All product Link from the footer of the page
+17:13:01.656 [main] INFO  resources.base - User Have reached the All Product page after clicking on the Standard Catalog Link from the footer of the page
+17:13:06.626 [main] INFO  resources.base - User has clicked on the resources  Link from the footer of the page
+17:13:21.648 [main] INFO  resources.base - User Have reached the resources page after clicking on the resources Link from the footer of the page
+17:13:26.666 [main] INFO  resources.base - User has clicked on the Special offer Link from the footer of the page
+17:13:36.734 [main] INFO  resources.base - User Have reached the Special offer after clicking on the Special offer Link from the footer of the page
+17:13:38.505 [main] INFO  resources.base - User has clicked on the Special offer Link from the footer of the page
+17:13:48.577 [main] INFO  resources.base - User Have reached the Favorites after clicking on the Favorites Link from the footer of the page
+17:13:56.692 [main] INFO  resources.base - User has clicked on the Track button from the header of the page
+17:13:56.710 [main] INFO  resources.base - User have reached the Track page after clicking on the Track button from the header of the page
+17:13:59.990 [main] INFO  resources.base - User has clicked on the order button from the header of the page
+17:14:10.080 [main] INFO  resources.base - User have reached the Order page after clicking on the Order button from the header of the page
+17:14:20.086 [main] INFO  resources.base - User has clicked on the Purchase Analysis button from the header of the page
+17:14:20.355 [main] INFO  resources.base - User have reached the Purchase Analysis page after clicking on the Purchase Analysis button from the header of the page
+17:14:20.529 [main] INFO  resources.base - User have clicked on email icon on purchase analysis Page
+17:14:20.747 [main] INFO  resources.base - User have entered the email on email field at purchase analysis Page
+17:14:21.075 [main] INFO  resources.base - User have click on Send button at email popup screen at purchase analysis Page
+17:14:26.037 [main] INFO  resources.base - User has clicked on the Calendar button from the header of the page
+17:14:26.045 [main] ERROR resources.base - User have not reached the Calendar page after clicking on the Calendar button from the header of the page
+17:14:26.045 [main] ERROR resources.base - expected [Calendar Monthly View - MarkITplace] but found [Oops! something went wrong. - MarkITplace]
+17:14:56.217 [main] INFO  resources.base - Compare Page not reached
+17:44:11.893 [main] INFO  resources.base - User Have Successfully Login To The Home Page
+17:44:15.018 [main] INFO  resources.base - User Have Successfully reached the favorites Page
+17:44:28.002 [main] INFO  resources.base - user is searching printer using the search textbox
+17:44:28.019 [main] INFO  resources.base - User Have Successfully reached the printer search listing page
+17:44:38.076 [main] ERROR resources.base - Search Result data is not appearing on the page
+17:44:38.076 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='product-list-grid clearfix print-product-list grid']"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 7b3b059d35362410f1d1f8a4416377e8
+*** Element info: {Using=xpath, value=//div[@class='product-list-grid clearfix print-product-list grid']}
+17:44:54.175 [main] ERROR resources.base - User Is Not Able To reached the PDP Page
+17:44:54.175 [main] ERROR resources.base - expected [HP Officejet Pro 8710 All-in-One - Multifunction printer - MarkITplace] but found [404 - Page not found - MarkITplace]
+17:45:11.766 [main] INFO  resources.base - User has clicked the Logo from the footer of the page
+17:45:11.778 [main] INFO  resources.base - User Have reached the Home Page clicking on the footer Logo
+17:45:14.247 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+17:45:14.274 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+17:45:17.007 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+17:45:18.464 [main] INFO  resources.base - User has clicked the Logo from the header of the page
+17:45:18.706 [main] INFO  resources.base - User Have reached the Home Page clicking on the Header Logo
+17:45:23.685 [main] INFO  resources.base - User has clicked on the Standard Catalog Navigation button from header
+17:45:23.714 [main] INFO  resources.base - User Have reached the Standard Catalog Page
+17:45:40.753 [main] INFO  resources.base - User has clicked on the 1st Standard Product appearing and reached the PDP Page
+17:45:45.632 [main] INFO  resources.base - User has clicked on the All Product Nevigation button from the header
+17:45:45.657 [main] INFO  resources.base - User Have reached the All Product Page
+17:45:50.140 [main] INFO  resources.base - User has clicked on Audio Cables Category From All Products Page
+17:45:50.183 [main] INFO  resources.base - User Have reached the Audio Cables Category Page
+17:46:00.600 [main] INFO  resources.base - User has clicked on Resouces link from the header
+17:46:00.614 [main] INFO  resources.base - User Have reached the Resources Page
+17:46:00.801 [main] INFO  resources.base - User has clicked on Special Offer Link from the header
+17:46:03.547 [main] ERROR resources.base - User have not reached the Special Offer Page after clicking Special Offer link from the header
+17:46:03.547 [main] ERROR resources.base - expected [Special Offers - MarkITplace] but found [Resources - MarkITplace]
+17:46:11.747 [main] INFO  resources.base - User has clicked on Cart Icon from the header
+17:46:11.818 [main] INFO  resources.base - User Have reached the Shopping Cart Page
+17:46:34.655 [main] INFO  resources.base - User has clicked the Logo from the header of the page
+17:46:44.741 [main] INFO  resources.base - User Have reached the Home Page clicking on the Header Logo
+17:46:46.397 [main] INFO  resources.base - User has clicked the Logo from the footer of the page
+17:46:46.437 [main] INFO  resources.base - User Have reached the Home Page clicking on the footer Logo
+17:46:50.873 [main] INFO  resources.base - User has clicked on the Standard Catalog Link from the footer of the page
+17:47:00.897 [main] INFO  resources.base - User Have reached the Standard Product page after clicking on the Standard Catalog Link from the footer of the page
+17:47:02.247 [main] INFO  resources.base - User has clicked on the All product Link from the footer of the page
+17:47:12.289 [main] INFO  resources.base - User Have reached the All Product page after clicking on the Standard Catalog Link from the footer of the page
+17:47:17.528 [main] INFO  resources.base - User has clicked on the resources  Link from the footer of the page
+17:47:32.554 [main] INFO  resources.base - User Have reached the resources page after clicking on the resources Link from the footer of the page
+17:47:32.797 [main] INFO  resources.base - User has clicked on the Special offer Link from the footer of the page
+17:47:42.864 [main] INFO  resources.base - User Have reached the Special offer after clicking on the Special offer Link from the footer of the page
+17:47:44.183 [main] INFO  resources.base - User has clicked on the Special offer Link from the footer of the page
+17:47:54.271 [main] INFO  resources.base - User Have reached the Favorites after clicking on the Favorites Link from the footer of the page
+17:48:09.240 [main] INFO  resources.base - User has clicked on the Track button from the header of the page
+17:48:09.269 [main] INFO  resources.base - User have reached the Track page after clicking on the Track button from the header of the page
+17:48:13.469 [main] INFO  resources.base - User has clicked on the order button from the header of the page
+17:48:23.517 [main] INFO  resources.base - User have reached the Order page after clicking on the Order button from the header of the page
+17:48:45.662 [main] INFO  resources.base - User has clicked on the Purchase Analysis button from the header of the page
+17:48:45.713 [main] INFO  resources.base - User have reached the Purchase Analysis page after clicking on the Purchase Analysis button from the header of the page
+17:48:46.182 [main] INFO  resources.base - User have clicked on email icon on purchase analysis Page
+17:48:46.447 [main] INFO  resources.base - User have entered the email on email field at purchase analysis Page
+17:48:46.814 [main] INFO  resources.base - User have click on Send button at email popup screen at purchase analysis Page
+17:48:53.444 [main] INFO  resources.base - User has clicked on the Calendar button from the header of the page
+17:48:53.458 [main] ERROR resources.base - User have not reached the Calendar page after clicking on the Calendar button from the header of the page
+17:48:53.458 [main] ERROR resources.base - expected [Calendar Monthly View - MarkITplace] but found [Oops! something went wrong. - MarkITplace]
+13:41:07.648 [main] INFO  resources.base - Compare Page not reached
+15:35:54.912 [main] INFO  resources.base - User Have Successfully Login To The Home Page
+15:36:00.058 [main] INFO  resources.base - User Have Successfully reached the favorites Page
+15:36:13.197 [main] INFO  resources.base - user is searching printer using the search textbox
+15:36:13.213 [main] INFO  resources.base - User Have Successfully reached the printer search listing page
+15:36:23.287 [main] ERROR resources.base - Search Result data is not appearing on the page
+15:36:23.287 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='product-list-grid clearfix print-product-list grid']"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 8f2560a64a621ee6eefaa64085df3604
+*** Element info: {Using=xpath, value=//div[@class='product-list-grid clearfix print-product-list grid']}
+15:36:39.888 [main] ERROR resources.base - User Is Not Able To reached the PDP Page
+15:36:39.888 [main] ERROR resources.base - expected [HP Officejet Pro 8710 All-in-One - Multifunction printer - MarkITplace] but found [404 - Page not found - MarkITplace]
+15:36:57.859 [main] INFO  resources.base - User has clicked the Logo from the footer of the page
+15:36:57.880 [main] INFO  resources.base - User Have reached the Home Page clicking on the footer Logo
+15:37:00.388 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+15:37:00.404 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+15:37:03.216 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+15:37:04.388 [main] INFO  resources.base - User has clicked the Logo from the header of the page
+15:37:04.433 [main] INFO  resources.base - User Have reached the Home Page clicking on the Header Logo
+15:37:09.923 [main] INFO  resources.base - User has clicked on the Standard Catalog Navigation button from header
+15:37:09.949 [main] INFO  resources.base - User Have reached the Standard Catalog Page
+15:37:26.510 [main] INFO  resources.base - User has clicked on the 1st Standard Product appearing and reached the PDP Page
+15:37:31.446 [main] INFO  resources.base - User has clicked on the All Product Nevigation button from the header
+15:37:31.454 [main] INFO  resources.base - User Have reached the All Product Page
+15:37:33.058 [main] INFO  resources.base - User has clicked on Audio Cables Category From All Products Page
+15:37:33.089 [main] INFO  resources.base - User Have reached the Audio Cables Category Page
+15:37:44.864 [main] INFO  resources.base - User has clicked on Resouces link from the header
+15:37:44.884 [main] INFO  resources.base - User Have reached the Resources Page
+15:37:51.001 [main] INFO  resources.base - User has clicked on Special Offer Link from the header
+15:37:51.016 [main] INFO  resources.base - User Have reached the Special Offer Page
+15:37:56.094 [main] INFO  resources.base - User has clicked on Cart Icon from the header
+15:37:56.110 [main] ERROR resources.base - User have not reached the Shopping Cart Page after clicking Cart Icon from the header
+15:37:56.110 [main] ERROR resources.base - expected [Cart - MarkITplace] but found [Special Offers - MarkITplace]
+15:38:09.420 [main] INFO  resources.base - User has clicked the Logo from the header of the page
+15:38:19.483 [main] INFO  resources.base - User Have reached the Home Page clicking on the Header Logo
+15:38:21.745 [main] INFO  resources.base - User has clicked the Logo from the footer of the page
+15:38:21.761 [main] INFO  resources.base - User Have reached the Home Page clicking on the footer Logo
+15:38:26.332 [main] INFO  resources.base - User has clicked on the Standard Catalog Link from the footer of the page
+15:38:36.353 [main] INFO  resources.base - User Have reached the Standard Product page after clicking on the Standard Catalog Link from the footer of the page
+15:38:37.816 [main] INFO  resources.base - User has clicked on the All product Link from the footer of the page
+15:38:47.857 [main] INFO  resources.base - User Have reached the All Product page after clicking on the Standard Catalog Link from the footer of the page
+15:38:53.148 [main] INFO  resources.base - User has clicked on the resources  Link from the footer of the page
+15:39:08.193 [main] INFO  resources.base - User Have reached the resources page after clicking on the resources Link from the footer of the page
+15:39:14.423 [main] INFO  resources.base - User has clicked on the Special offer Link from the footer of the page
+15:39:24.501 [main] INFO  resources.base - User Have reached the Special offer after clicking on the Special offer Link from the footer of the page
+15:39:24.697 [main] INFO  resources.base - User has clicked on the Special offer Link from the footer of the page
+15:39:34.767 [main] INFO  resources.base - User Have reached the Favorites after clicking on the Favorites Link from the footer of the page
+15:39:39.001 [main] INFO  resources.base - User has clicked on the Track button from the header of the page
+15:39:39.065 [main] INFO  resources.base - User have reached the Track page after clicking on the Track button from the header of the page
+15:39:42.022 [main] INFO  resources.base - User has clicked on the order button from the header of the page
+15:39:52.108 [main] INFO  resources.base - User have reached the Order page after clicking on the Order button from the header of the page
+15:40:01.965 [main] INFO  resources.base - User has clicked on the Purchase Analysis button from the header of the page
+15:40:02.068 [main] INFO  resources.base - User have reached the Purchase Analysis page after clicking on the Purchase Analysis button from the header of the page
+15:40:02.614 [main] INFO  resources.base - User have clicked on email icon on purchase analysis Page
+15:40:03.020 [main] INFO  resources.base - User have entered the email on email field at purchase analysis Page
+15:40:03.317 [main] INFO  resources.base - User have click on Send button at email popup screen at purchase analysis Page
+15:40:07.193 [main] INFO  resources.base - User has clicked on the Calendar button from the header of the page
+15:40:07.201 [main] ERROR resources.base - User have not reached the Calendar page after clicking on the Calendar button from the header of the page
+15:40:07.201 [main] ERROR resources.base - expected [Calendar Monthly View - MarkITplace] but found [Oops! something went wrong. - MarkITplace]
+15:40:37.503 [main] INFO  resources.base - Compare Page not reached
+16:44:06.978 [main] INFO  resources.base - User Have Successfully Login To The Home Page
+16:44:10.289 [main] INFO  resources.base - User Have Successfully reached the favorites Page
+16:44:26.572 [main] INFO  resources.base - user is searching printer using the search textbox
+16:44:26.590 [main] INFO  resources.base - User Have Successfully reached the printer search listing page
+16:44:36.656 [main] ERROR resources.base - Search Result data is not appearing on the page
+16:44:36.666 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='product-list-grid clearfix print-product-list grid']"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: a4722d5a0099609ab2b570f5d44c5a4b
+*** Element info: {Using=xpath, value=//div[@class='product-list-grid clearfix print-product-list grid']}
+16:44:56.085 [main] INFO  resources.base - User Have Successfully reached the PDP Page
+16:45:29.968 [main] INFO  resources.base - Recently Viewed Page is Opened
+16:45:33.693 [main] INFO  resources.base - User has clicked the Logo from the footer of the page
+16:45:33.717 [main] INFO  resources.base - User Have reached the Home Page clicking on the footer Logo
+16:45:36.508 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+16:45:36.521 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+16:45:39.469 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+16:45:40.938 [main] INFO  resources.base - User has clicked the Logo from the header of the page
+16:45:40.950 [main] INFO  resources.base - User Have reached the Home Page clicking on the Header Logo
+16:45:45.578 [main] INFO  resources.base - User has clicked on the Standard Catalog Navigation button from header
+16:45:45.615 [main] INFO  resources.base - User Have reached the Standard Catalog Page
+16:46:00.942 [main] INFO  resources.base - User has clicked on the 1st Standard Product appearing and reached the PDP Page
+16:46:05.768 [main] INFO  resources.base - User has clicked on the All Product Nevigation button from the header
+16:46:05.781 [main] INFO  resources.base - User Have reached the All Product Page
+16:46:10.334 [main] INFO  resources.base - User has clicked on Audio Cables Category From All Products Page
+16:46:10.350 [main] INFO  resources.base - User Have reached the Audio Cables Category Page
+16:46:33.914 [main] INFO  resources.base - User has clicked on Resouces link from the header
+16:46:33.936 [main] INFO  resources.base - User Have reached the Resources Page
+16:46:39.437 [main] INFO  resources.base - User has clicked on Special Offer Link from the header
+16:46:39.458 [main] INFO  resources.base - User Have reached the Special Offer Page
+16:46:48.105 [main] INFO  resources.base - User has clicked on Cart Icon from the header
+16:46:48.118 [main] INFO  resources.base - User Have reached the Shopping Cart Page
+16:47:44.855 [main] INFO  resources.base - user has clicked on the Close button on Java Alert Popup Page
+16:47:49.867 [main] ERROR resources.base - User have not reached the order confirmation page
+16:47:49.867 [main] ERROR resources.base - expected [Order Confirmation - MarkITplace] but found [Checkout - MarkITplace]
+16:47:52.111 [main] INFO  resources.base - User has clicked the Logo from the header of the page
+16:48:02.200 [main] INFO  resources.base - User Have reached the Home Page clicking on the Header Logo
+16:48:05.023 [main] INFO  resources.base - User has clicked the Logo from the footer of the page
+16:48:05.039 [main] INFO  resources.base - User Have reached the Home Page clicking on the footer Logo
+16:48:09.454 [main] INFO  resources.base - User has clicked on the Standard Catalog Link from the footer of the page
+16:48:19.485 [main] INFO  resources.base - User Have reached the Standard Product page after clicking on the Standard Catalog Link from the footer of the page
+16:48:21.165 [main] INFO  resources.base - User has clicked on the All product Link from the footer of the page
+16:48:31.206 [main] INFO  resources.base - User Have reached the All Product page after clicking on the Standard Catalog Link from the footer of the page
+16:48:37.961 [main] INFO  resources.base - User has clicked on the resources  Link from the footer of the page
+16:48:53.015 [main] INFO  resources.base - User Have reached the resources page after clicking on the resources Link from the footer of the page
+16:48:58.825 [main] INFO  resources.base - User has clicked on the Special offer Link from the footer of the page
+16:49:08.954 [main] INFO  resources.base - User Have reached the Special offer after clicking on the Special offer Link from the footer of the page
+16:49:12.992 [main] INFO  resources.base - User has clicked on the Special offer Link from the footer of the page
+16:49:23.056 [main] INFO  resources.base - User Have reached the Favorites after clicking on the Favorites Link from the footer of the page
+16:49:32.935 [main] INFO  resources.base - User has clicked on the Track button from the header of the page
+16:49:33.155 [main] INFO  resources.base - User have reached the Track page after clicking on the Track button from the header of the page
+16:49:36.327 [main] INFO  resources.base - User has clicked on the order button from the header of the page
+16:49:46.413 [main] INFO  resources.base - User have reached the Order page after clicking on the Order button from the header of the page
+16:50:15.619 [main] INFO  resources.base - User has clicked on the Purchase Analysis button from the header of the page
+16:50:15.682 [main] INFO  resources.base - User have reached the Purchase Analysis page after clicking on the Purchase Analysis button from the header of the page
+16:50:16.138 [main] INFO  resources.base - User have clicked on email icon on purchase analysis Page
+16:50:16.499 [main] INFO  resources.base - User have entered the email on email field at purchase analysis Page
+16:50:16.982 [main] INFO  resources.base - User have click on Send button at email popup screen at purchase analysis Page
+16:50:27.000 [main] INFO  resources.base - User has clicked on the Calendar button from the header of the page
+16:50:27.009 [main] ERROR resources.base - User have not reached the Calendar page after clicking on the Calendar button from the header of the page
+16:50:27.009 [main] ERROR resources.base - expected [Calendar Monthly View - MarkITplace] but found [Oops! something went wrong. - MarkITplace]
+16:50:57.201 [main] INFO  resources.base - Compare Page not reached
+11:22:40.379 [main] INFO  resources.base - User Have Successfully Login To The Home Page
+11:22:53.736 [main] INFO  resources.base - User Have Successfully reached the favorites Page
+11:23:16.918 [main] INFO  resources.base - user is searching printer using the search textbox
+11:23:16.937 [main] INFO  resources.base - User Have Successfully reached the printer search listing page
+11:23:27.054 [main] ERROR resources.base - Search Result data is not appearing on the page
+11:23:27.055 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='product-list-grid clearfix print-product-list grid']"}
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: f07c7b7f5e30877b5474cb9e8f594d95
+*** Element info: {Using=xpath, value=//div[@class='product-list-grid clearfix print-product-list grid']}
+11:23:59.043 [main] INFO  resources.base - User Have Successfully reached the PDP Page
+11:24:34.131 [main] INFO  resources.base - User has clicked the Logo from the footer of the page
+11:24:34.145 [main] INFO  resources.base - User Have reached the Home Page clicking on the footer Logo
+11:24:40.548 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+11:24:40.594 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+11:24:46.216 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+11:24:51.373 [main] INFO  resources.base - User has clicked the Logo from the header of the page
+11:24:51.383 [main] INFO  resources.base - User Have reached the Home Page clicking on the Header Logo
+11:24:59.809 [main] INFO  resources.base - User has clicked on the Standard Catalog Navigation button from header
+11:24:59.816 [main] INFO  resources.base - User Have reached the Standard Catalog Page
+11:25:17.574 [main] INFO  resources.base - User has clicked on the 1st Standard Product appearing and reached the PDP Page
+11:25:27.894 [main] INFO  resources.base - User has clicked on the All Product Nevigation button from the header
+11:25:27.904 [main] INFO  resources.base - User Have reached the All Product Page
+11:25:32.167 [main] INFO  resources.base - User has clicked on Audio Cables Category From All Products Page
+11:25:32.203 [main] INFO  resources.base - User Have reached the Audio Cables Category Page
+11:26:31.297 [main] INFO  resources.base - User has clicked on Resouces link from the header
+11:26:31.305 [main] INFO  resources.base - User Have reached the Resources Page
+11:26:43.657 [main] INFO  resources.base - User has clicked on Special Offer Link from the header
+11:26:43.668 [main] INFO  resources.base - User Have reached the Special Offer Page
+11:26:54.496 [main] INFO  resources.base - User has clicked on Cart Icon from the header
+11:26:54.507 [main] INFO  resources.base - User Have reached the Shopping Cart Page
+11:27:39.932 [main] INFO  resources.base - User has clicked the Logo from the header of the page
+11:27:49.945 [main] INFO  resources.base - User Have reached the Home Page clicking on the Header Logo
+11:27:54.434 [main] INFO  resources.base - User has clicked the Logo from the footer of the page
+11:27:54.466 [main] INFO  resources.base - User Have reached the Home Page clicking on the footer Logo
+11:28:09.166 [main] INFO  resources.base - User has clicked on the Standard Catalog Link from the footer of the page
+11:28:19.175 [main] INFO  resources.base - User Have reached the Standard Product page after clicking on the Standard Catalog Link from the footer of the page
+11:28:25.687 [main] INFO  resources.base - User has clicked on the All product Link from the footer of the page
+11:28:35.696 [main] INFO  resources.base - User Have reached the All Product page after clicking on the Standard Catalog Link from the footer of the page
+11:28:44.737 [main] INFO  resources.base - User has clicked on the resources  Link from the footer of the page
+11:28:59.758 [main] INFO  resources.base - User Have reached the resources page after clicking on the resources Link from the footer of the page
+11:29:13.867 [main] INFO  resources.base - User has clicked on the Special offer Link from the footer of the page
+11:29:23.882 [main] INFO  resources.base - User Have reached the Special offer after clicking on the Special offer Link from the footer of the page
+11:29:28.386 [main] INFO  resources.base - User has clicked on the Special offer Link from the footer of the page
+11:29:38.403 [main] INFO  resources.base - User Have reached the Favorites after clicking on the Favorites Link from the footer of the page
+11:30:52.012 [main] INFO  resources.base - User has clicked on the Track button from the header of the page
+11:30:52.032 [main] INFO  resources.base - User have reached the Track page after clicking on the Track button from the header of the page
+11:31:15.001 [main] INFO  resources.base - User has clicked on the order button from the header of the page
+11:31:25.012 [main] INFO  resources.base - User have reached the Order page after clicking on the Order button from the header of the page
+11:32:22.312 [main] INFO  resources.base - User has clicked on the Purchase Analysis button from the header of the page
+11:32:22.617 [main] INFO  resources.base - User have reached the Purchase Analysis page after clicking on the Purchase Analysis button from the header of the page
+11:32:22.837 [main] INFO  resources.base - User have clicked on email icon on purchase analysis Page
+11:32:23.113 [main] INFO  resources.base - User have entered the email on email field at purchase analysis Page
+11:32:23.449 [main] INFO  resources.base - User have click on Send button at email popup screen at purchase analysis Page
+11:32:35.222 [main] INFO  resources.base - User has clicked on the Calendar button from the header of the page
+11:32:35.244 [main] INFO  resources.base - User have reached the  Calendar page after clicking on the Calendar button from the header of the page
+11:33:25.492 [main] INFO  resources.base - User has clicked on the Saved Report icon from the header of the page
+11:33:25.527 [main] INFO  resources.base - User have reached the  Saved Report page after clicking on the Saved Report icon from the header of the page
+11:33:30.277 [main] INFO  resources.base - user is searching printer using the search textbox
+11:34:35.261 [main] INFO  resources.base - User Have Successfully reached the Compare page
+12:03:45.537 [main] INFO  resources.base - User Have Successfully Login To The Home Page
+12:03:51.703 [main] INFO  resources.base - User Have Successfully reached the favorites Page
+12:04:10.257 [main] INFO  resources.base - user is searching printer using the search textbox
+12:04:10.267 [main] INFO  resources.base - User Have Successfully reached the printer search listing page
+12:04:20.332 [main] ERROR resources.base - Search Result data is not appearing on the page
+12:04:20.332 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='product-list-grid clearfix print-product-list grid']"}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 8d55860bbfab6aeca68e4547f76fc004
+*** Element info: {Using=xpath, value=//div[@class='product-list-grid clearfix print-product-list grid']}
